@@ -58,6 +58,7 @@ Preprocessing: Resizing, normalization, and augmentation applied.
 **1️⃣ Clone Repository**
 
 git clone https://github.com/Sadanand87/Plant-Leaf-Disease-Detection-System.git
+
 cd Plant-Leaf-Disease-Detection-System
 
 **2️⃣ Setup Backend (Flask API for Model)**
