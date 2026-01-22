@@ -1,0 +1,70 @@
+.homeDiv{
+  text-align: center;
+  height:100vh;
+}
+h2{
+  text-align:center;
+  padding-top:50px;
+  padding-bottom: 20px;
+}
+h3{
+  padding-bottom: 20px;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 70px;
+  border: 5px solid #f6f4f4;
+  border-radius: 5px;
+  background-color: #c6ffc8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+  max-height: 100%;
+  /* position:relative; */
+  top: 35%;
+  left:35%;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="file"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+input[type="file"]:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.bgImg img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top:0;
+}
+
+.btn1 {
+  padding: 8px 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #03f1ed, #071516);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  margin-top: 15px;
+  text-align: center;
+  color:rgb(14, 13, 13);
+}

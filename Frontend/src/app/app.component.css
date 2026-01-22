@@ -1,0 +1,13 @@
+
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.mainDiv{
+  margin-top: -20px;
+  background-color: #e8edee;
+  background: rgb(5, 253, 253);
+  background: linear-gradient(0deg, rgb(0, 57, 70) 40%, rgb(92, 234, 253) 100%);
+  min-height: 730px;
+}

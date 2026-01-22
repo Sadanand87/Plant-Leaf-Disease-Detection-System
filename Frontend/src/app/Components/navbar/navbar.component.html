@@ -1,0 +1,41 @@
+
+<!-- @if (isLoggedIn) { -->
+
+<div class="nav2">
+  @if(isAdmin){
+    <div class="nav2">
+      <div><a routerLink="/users">Manage Users</a></div>
+      <button class="button-gradient" (click)="logout()" >Logout</button>
+    </div>
+  }@else if (isUser) {
+    <div class="button-gradient"><a routerLink="/home">Home</a></div>
+    <div class="button-gradient"><a routerLink="/about">About-US</a></div>
+    @if(isLoggedIn){ <button class="button-gradient"  (click)="logout()" >Logout</button>}
+    @else{
+       <button class="button-gradient"><a routerLink="/login">Login</a></button>
+     }
+
+  } @else {
+    <div class="button-gradient"><a routerLink="/home">Home</a></div>
+    <div class="button-gradient"><a routerLink="/about">About-US</a></div>
+    <div class="button-gradient"><a routerLink="/contact">Contact-US</a></div>
+    @if(!isAuthenticated){
+      <div class="button-gradient"><a routerLink="/registerpage">Register</a></div>
+    }
+    <div class="button-gradient"><a routerLink="/login">Login</a></div>
+
+  }
+
+
+  <!-- <div><button (click)="toggleLogin()" routerLink="/login">Login</button></div> -->
+
+  <!-- @if (isLoggedIn) { -->
+  <!-- } @else { -->
+  <!-- <div><button class="button-gradient" (click)="logout()">Logout</button></div> -->
+  <!-- } -->
+</div>
+<!-- } @else{ -->
+
+
+<!-- } -->
+
